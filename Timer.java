@@ -50,7 +50,7 @@ public class Timer extends JPanel {
       
   	      /**
 	       * The method from action listener
-          * @param e  The action that triggered the event
+               * @param e  The action that triggered the event
 	       */
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -77,7 +77,7 @@ public class Timer extends JPanel {
 		reset.addActionListener(new ActionListener() {
   	      /**
 	       * The method from action listener
-          * @param e  The action that triggered the event
+               * @param e  The action that triggered the event
 	       */
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -122,8 +122,8 @@ public class Timer extends JPanel {
       
   	      /**
 	       * The method from Runnable
-          * starting the thread causes this method to be called in 
-          * that separately executing thread
+               * starting the thread causes this method to be called in 
+               * that separately executing thread
 	       */
 			@Override
 			public void run() {
@@ -173,11 +173,11 @@ public class Timer extends JPanel {
 		// to cleanup the thread.
 		// this function gets called when user closes the window
 		frame.addWindowListener(new WindowAdapter() {
-       	/**
+          	/**
 	        * The method from WindowListerner
 	        * Invoked when the user attempts to close the 
-           * window from the window's system menu
-           *
+                * window from the window's system menu
+                *
 	        * @param e The action the triggered the event
 	        */     
 		    @Override
