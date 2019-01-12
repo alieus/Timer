@@ -1,5 +1,3 @@
-package csc143.timer;
-
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Font;
@@ -19,7 +17,7 @@ import javax.swing.SwingConstants;
  * A simple timer class
  *
  * @author Alieu Sanneh
- * @version LA10: Timer: Plus
+ * @version Timer
  */
 public class Timer extends JPanel {
 
